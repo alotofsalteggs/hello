@@ -17,3 +17,5 @@ jobs:
       run: gcc hello.c -o hello
     - name: make check
       run: ./hello
+    - name: docker
+      run: docker ps
